@@ -9,6 +9,11 @@ spec:
   navigation:
     - element: xkappel-ambulance-wl-app # element, ktorý bude vložený na stránku
         # pri navigácii na zoznam čakajúcich
+      attributes:
+        - name: api-base
+          value: http://localhost:5000/api
+        - name: ambulance-id
+          value: bobulova
       path: xkappel-ambulance-wl # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam čakajúcich xkappel # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
@@ -16,7 +21,7 @@ spec:
   proxy:
     true # pre komponenty v rámci klastra, neprístupné na verejnej sieti
     # musí byť táto hodnota nastavená na true
-  hash-suffix: v1alpha1
+  hash-suffix: v1alpha2
     # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
     # sa mení názov URL pre modul a tým je možné predísť problémom
     # s verziami vo vyrovnávacích pamätiach
