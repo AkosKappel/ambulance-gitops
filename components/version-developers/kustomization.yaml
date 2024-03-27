@@ -5,7 +5,7 @@ images:
     newName: xkappel/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
     newTag: main.20240325.2147 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
   - name: xkappel/ambulance-ufe
-    newName: xkappel/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+    newName: xkappel/project-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
     newTag: main.20240326.0859 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
   - name: milung/ufe-controller
     newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
