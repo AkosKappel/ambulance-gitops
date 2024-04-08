@@ -3,7 +3,10 @@ kind: Component
 images:
   - name: xkappel/ambulance-ufe
     newName: xkappel/ambulance-ufe
-    newTag: 1.0.0 # aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.1.0 # aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  - name: xkappel/ambulance-wl-webapi
+    newName: xkappel/ambulance-wl-webapi
+    newTag: 1.1.0
 
 replacements:
   - targets:

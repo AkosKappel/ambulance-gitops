@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
   - ../../../apps/xkappel-ambulance-ufe
+  - ../../../apps/xkappel-ambulance-webapi
 
 components:
   - ../../../components/version-release
