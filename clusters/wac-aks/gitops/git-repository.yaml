@@ -11,4 +11,4 @@ spec:
   url: https://github.com/AkosKappel/ambulance-gitops
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 # secretRef:
-#    name: <pfx>-repository-pat
+#    name: xkappel-repository-pat
