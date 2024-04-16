@@ -12,3 +12,7 @@ spec:
       attributes:
         - name: src
           value: /mongo-express
+      # for more attributes, see https://github.com/milung/ufe-controller/blob/master/configs/k8s/kustomize/crd.yaml
+      icon:
+        mime: 'image/png'
+        url: 'https://developer.asustor.com/uploadIcons/0020_999_1579585089_mongo-express-256.png'
