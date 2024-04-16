@@ -13,5 +13,8 @@ spec:
       path: grafana
       priority: 0
       title: System Dashboards
+      icon:
+        mime: 'image/svg+xml'
+        url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Grafana_icon.svg'
   preload: false
   proxy: true

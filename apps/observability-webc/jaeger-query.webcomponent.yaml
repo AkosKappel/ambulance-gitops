@@ -13,5 +13,8 @@ spec:
       path: jaeger
       priority: 0
       title: Distribuované trasovanie
+      icon:
+        mime: 'image/svg+xml'
+        url: 'https://wac-24.westeurope.cloudapp.azure.com/ui/app-icons/jaeger'
   preload: false
   proxy: true

@@ -12,3 +12,6 @@ spec:
       attributes:
         - name: src
           value: /monitoring
+      icon:
+        mime: 'image/svg+xml'
+        url: 'https://wac-24.westeurope.cloudapp.azure.com/ui/app-icons/monitoring'
